@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
-
+//проверка
 public class Main { // здесь у меня не получилось обозвать класс как то иначе, кроме как Main. Я выянсил, что нужно поменять наименование в папке проекта с main.java на Phonebook.java. Мне не помогло + меня и так какие то баги постоянно, я забил и оствил так, так как это не суть важно. Хотя бы так работает.
 
     public static void main(String[] args) {
