@@ -1,0 +1,4 @@
+package sixthTask;
+
+class PasswordValidatorTest {
+}
