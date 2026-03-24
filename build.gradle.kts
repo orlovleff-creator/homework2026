@@ -34,6 +34,12 @@ dependencies {
     implementation("io.github.openfeign:feign-core:13.3")
     implementation("io.github.openfeign:feign-okhttp:13.3")
     implementation("io.github.openfeign:feign-jackson:13.3")
+
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.0")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.7.0")
+    implementation(group = "org.hibernate", name = "hibernate-core", version = "7.3.0.Final")
+    implementation("com.h2database:h2:1.4.194")
+    testImplementation(group = "com.h2database", name = "h2", version = "1.4.200")
 }
 
 tasks.test {
